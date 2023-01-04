@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/fa6aadf6d5.js" crossorigin="anonymous"></script>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    
+    <title>Siteweb</title>
+  </head>
+  <body
+    class="bg-no-repeat bg-cover bg-center bg-fixed bg-[url('images/Group 1.jpg')]"
+  >
+    <div class="snap-y snap-mandatory overflow-y-scroll snap-start">
+      <!-- top nav -->
+      <div class="flex flex-row gap-6 justify-between mt-8">
+        <div class=""></div>
+        <div class="w-20 z-1">
+          <img src="images/siteweb-484-x-175.png" />
+        </div>
+        <div class="mr-8 cursor-pointer" onclick="openNav()" id="open">Menu</div>
+        <div class="mr-8 cursor-pointer hidden" onclick="closeNav()" id="close">Close</div>
+        </div>
+ 
+           <!-- navigation bar-->
+           <section class="h-screen hidden flex-col justify-center content-center items-center" id="nav">
+            <div class="">
+              <div class="p-5">  
+                <a href="Index.html" class="text-center text-4xl hover:text-blue hover:underline  hover:ease-in-out duration-150 ">Home</a>
+              </div>
+              <div class="p-5">
+                <a href="#about" class="text-center text-4xl  hover:text-blue hover:underline  hover:ease-in-out duration-150">About us</a>
+              </div>
+              <div class="p-5">
+                <a href="#services" class="text-center text-4xl  hover:text-blue hover:underline  hover:ease-in-out duration-150">Our Services</a>
+              </div>
+              <div class="p-5">
+                <a href="#contact" class="text-center text-4xl  hover:text-blue hover:underline  hover:ease-in-out duration-150">Contact us</a>
+              </div>
+              <div class="p-5">
+                <a href="#work" class="text-center text-4xl  hover:text-blue hover:underline  hover:ease-in-out duration-150">Our Work</a>
+              </div>
+              
+            </div>
+           
+           </section>
+
+      <!-- hero section -->
+      <section class="" id="hero">
+        <div class="flex flex-col gap-8 mt-24 justify-center">
+          <h1 class="text-5xl text-center font-sans">
+            Creative Team Making Ideas Happen
+          </h1>
+          <p class="text-center text-md font-sans content-center">
+            SiteWeb is a leading internet marketing and website design company
+            based in the Vaal Triangle.Founded in 2007,SiteWeb has built a
+            strong reputation <br />
+            the years by helping numerous companies to obtain new websites,<br />
+            and also to achieve a great online presence & success.
+          </p>
+        </div>
+
+        <div class="flex flex-row justify-center gap-4 mt-4">
+            <a href="#services">
+                <button
+                class="font-sans text-sm border-2 rounded-lg border-solid border-blue  px-5 py-2 bg-blue text-white"
+              >
+                What we offer
+              </button>
+            </a>
+         
+            <a href="#about">
+                <button
+                class="font-sans text-sm border-2 rounded-lg border-solid border-slate px-5 py-2 bg-white"
+              >
+                Learn More
+              </button>
+            </a>
+          
+        </div>
+
+        <div class="flex justify-center mt-10">
+          <video
+            class="w-1/2 ml-10 rounded-lg"
+            autoplay
+            loop
+            src="videos/video.mp4"
+          ></video>
+        </div>
+      </section>
+<!-- end -->
+
+      <!-- about -->
+      <section class="h-screen">
+        <div class="flex flex-col gap-4 justify-center mt-20">
+          <h1 class="text-center text-4xl font-bold tracking-tight" id="about">
+            WHY SITEWEB?
+          </h1>
+          <p class="text-center text-sm font-normal font-sans">
+            Siteweb is not a one man show. We have the knowledge, experience as
+            well as a dedicated team to help you get to where you want to be!<br />
+            SiteWeb comprises of a tight knit team, where each team member
+            performs an essential role to achieve client satisfaction,
+            <br />including website design, internet and content marketing as
+            well as social media services. <br />Our professional and friendly
+            team aims to help your business achieve results.
+          </p>
+        </div>
+
+        <div class="mt-10">
+          <h1 class="text-center mt-5 mb-5 text-4xl font-bold tracking-tight">
+            Meet the team
+          </h1>
+        </div>
+        <!-- Swiper -->
+        <div class="flex flex-row justify-center mySwiper">
+          <div class="swiper-wrapper">
+            <div
+              class="ml-5 mt-5 rounded-lg dark:bg-grayDark dark:border-gray-700 bg-white border border-gray shadow-md max-w-sm swiper-slide"
+            >
+              <img
+                class="h-full w-full rounded-lg"
+                src="images/pexels-andrea-piacquadio-834863.jpg"
+              />
+              <h1
+                class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center"
+              >
+                <b>FRIEDEL</b> COETSEE
+              </h1>
+              <h1
+                class="ml-2 font-normal text-sm text-gray-700 dark:text-gray-400"
+              >
+                <b>Position:</b> The Boss
+              </h1>
+              <p
+                class="ml-2 mb-3 text-sm font-normal text-gray-700 dark:text-gray-400"
+              >
+                <b>About the boss:</b> Friedel is the brains behind SiteWeb
+                Online Marketing and it is NO coincidence the name Friedel
+                rhymes with Google (well sort of).If Google didn’t invent
+                Google,Friedel would have.
+              </p>
+            </div>
+
+            <!-- 2 -->
+            <div
+              class="mt-5 rounded-lg dark:bg-grayDark dark:border-gray-700 bg-white border border-gray shadow-md max-w-sm swiper-slide"
+            >
+              <img
+                class="h-full w-full rounded-lg"
+                src="images/pexels-andrea-piacquadio-712513.jpg"
+              />
+              <h1
+                class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center"
+              >
+                <b>LÉRIE</b> COETSEE
+              </h1>
+              <h1
+                class="ml-2 text-sm font-normal text-gray-700 dark:text-gray-400"
+              >
+                <b>Position:</b> Wife Boss
+              </h1>
+              <p
+                class="ml-2 text-sm font-normal text-gray-700 dark:text-gray-400"
+              >
+                <b>About the LÉRIE:</b> Lérie is the glue that holds the team
+                together, and is a mother to all at SiteWeb. Whether you need an
+                ear that will listen to your problems, need some honest advice
+                or you simply forgot your lunch bag at home – Lérie will always
+                know what to do
+              </p>
+            </div>
+
+            <!-- 3 -->
+            <div
+              class="mt-5 rounded-lg dark:bg-grayDark dark:border-gray-700 bg-white border border-gray shadow-md max-w-sm swiper-slide"
+            >
+              <img
+                class="h-full w-full rounded-lg"
+                src="images/pexels-andrea-piacquadio-874158.jpg"
+              />
+              <h1
+                class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center"
+              >
+                <b>ZEANDRE</b> WEST
+              </h1>
+              <h1
+                class="ml-2 text-sm font-normal text-gray-700 dark:text-gray-400"
+              >
+                <b>Position:</b> What doesn’t Zeandre do at SiteWeb? Zeandre is
+                the glue that holds SiteWeb together.
+              </h1>
+              <p
+                class="text-sm ml-2 font-normal text-gray-700 dark:text-gray-400"
+              >
+                <b>Hobbies and about:</b> Zeandre enjoys long walks to the
+                fridge and eating. He frequently tries new hairstyles, loves the
+                smell of a new (or used) computer and secretly believes in
+                unicorns.
+              </p>
+            </div>
+            <!-- 4 -->
+            <div
+              class="mt-5 rounded-lg dark:bg-grayDark dark:border-gray-700 bg-white border border-gray shadow-md max-w-sm swiper-slide"
+            >
+              <img
+                class="h-full w-full rounded-lg"
+                src="images/pexels-andrea-piacquadio-4865280.jpg"
+              />
+              <h1
+                class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center"
+              >
+                <b>BELINDA</b> BOTHA
+              </h1>
+              <h1
+                class="ml-2 text-sm font-normal text-gray-700 dark:text-gray-400"
+              >
+                <b>Position:</b> Copywriter and Cupcake Expert
+              </h1>
+              <p
+                class="ml-2 text-sm font-normal text-gray-700 dark:text-gray-400"
+              >
+                <b>Hobbies:</b> Belinda enjoys online shopping, whether it is
+                for the latest Zando dress or a new lens for her camera. Luckily
+                she is very good at saving enough money in just a few days to
+                spoil herself often. When she is not in the kitchen icing
+                cupcakes, she attends photo school where she is mastering the
+                art of taking your picture without you even knowing it.
+                (Stalker-alert)
+              </p>
+            </div>
+            <!-- 5 -->
+            <div
+              class="mt-5 rounded-lg dark:bg-grayDark dark:border-gray-700 bg-white border border-gray shadow-md max-w-sm swiper-slide"
+            >
+              <img
+                class="h-full w-full rounded-lg"
+                src="images/pexels-andrea-piacquadio-4865409.jpg"
+              />
+              <h1
+                class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center"
+              >
+                <b>ROELENE</b> TALJAARD
+              </h1>
+              <h1
+                class="ml-2 text-sm font-normal text-gray-700 dark:text-gray-400"
+              >
+                <b>Position:</b> Creator of Websites
+              </h1>
+              <p
+                class="ml-2 text-sm font-normal text-gray-700 dark:text-gray-400"
+              >
+                <b>About ROELENE:</b> Roela, as we like to call her, is the
+                ultimate of multi-taskers. Juggling her work like a pro, no ball
+                will be dropped when in her capable hands (as long as we keep
+                the coffee coming). As the mother of a busy toddler, Roelene has
+                the energy and positivity needed to work at Siteweb.
+              </p>
+            </div>
+            <!-- 6 -->
+            <div
+              class="mt-5 rounded-lg dark:bg-grayDark dark:border-gray-700 bg-white border border-gray shadow-md max-w-sm swiper-slide"
+            >
+              <img
+                class="h-full w-full rounded-lg"
+                src="images/pexels-andrea-piacquadio-4859422.jpg"
+              />
+              <h1
+                class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center"
+              >
+                <b>BONÉTA</b> VAN STADEN
+              </h1>
+              <h1
+                class="ml-2 text-sm font-normal text-gray-700 dark:text-gray-400"
+              >
+                <b>Position:</b> Website designer-ess
+              </h1>
+              <p
+                class="ml-2 text-sm font-normal text-gray-700 dark:text-gray-400"
+              >
+                <b>About the BONÉTA:</b>Bonéta loves to create all kinds of
+                beautiful things,including state-of-the-art websites.When she is
+                not hand-painting a teacup or something of the sorts, she is
+                turning our clients’ dreams into a reality Leave your website
+                ideas in her capable hands and she will turn it into something
+                amazing for sure!
+              </p>
+            </div>
+            <div
+              class="mt-5 rounded-lg dark:bg-grayDark dark:border-gray-700 bg-white border border-gray shadow-md max-w-sm swiper-slide"
+            >
+              <img
+                class="h-full w-full rounded-lg"
+                src="images/pexels-andrea-piacquadio-4376662.jpg"
+              />
+              <h1
+                class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center"
+              >
+                <b>RACHEL</b> VAN WYK
+              </h1>
+              <h1
+                class="ml-2 text-sm font-normal text-gray-700 dark:text-gray-400"
+              >
+                <b>Position:</b> Siteweb Minister of Finance
+              </h1>
+              <p
+                class="ml-2 text-sm font-normal text-gray-700 dark:text-gray-400"
+              >
+                <b>About the RACHEL:</b> {Pronounced “rah-SHELL”} Rachel’s
+                responsibilities include seeing that all is well in our finance
+                department, and that the Boss makes it to all his meetings on
+                time. Her fun and loving personality will brighten up your day,
+                as long as your payments are up to date…
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end -->
+
+      <!-- our work -->
+      <section class="h-screen">
+        <div class="flex flex-col mt-32">
+          <h1 id="work" class="ml-5 text-4xl font-bold tracking-tigh text-center">
+            Our Work
+          </h1>
+          <p
+            class="text-md ml-5 mb-3 font-normal text-center text-gray-700 dark:text-gray-400"
+          >
+            List of brands we worked with, swipe to view more
+          </p>
+        </div>
+        <div class="flex flex-row mt-10 ml-32 w-1/3 secondSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="">
+                <img src="images/pexels-lucas-monteiro-1868471.jpg"
+              /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="images/pexels-obi-onyeador-13009437.jpg" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="images/pexels-lucas-monteiro-1868471.jpg" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="images/pexels-obi-onyeador-13009437.jpg" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="images/pexels-lucas-monteiro-1868471.jpg" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="images/pexels-obi-onyeador-13009437.jpg" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href=""
+                ><img src="images/pexels-lucas-monteiro-1868471.jpg"
+              /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href=""
+                ><img src="images/pexels-obi-onyeador-13009437.jpg"
+              /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href=""
+                ><img src="images/pexels-lucas-monteiro-1868471.jpg"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end -->
+
+      <!-- services -->
+      <section>
+        <h1 class="mt-20 text-center text-4xl font-bold tracking-tigh" id="services">
+          Services
+        </h1>
+        <div class="flex flex-col items-center sm:flex-row sm:gap-8">
+          <div class="mt-10 sm:mt-20">
+            <video
+              class="w-20 h-20 ml-32"
+              src="videos/palette.mp4"
+              loop
+              autoplay
+            ></video>
+            <h1
+              class="text-center text-md font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              WEBSITE DESIGN
+            </h1>
+            <p class="text-sm font-normal w-72 text-center ml-5">
+              To kick off the online marketing process, you will need a website
+              design that meets the needs of your business, and entails all the
+              technical aspects of being a great website. Impress your customers
+              by making a good first impression with your website.
+            </p>
+            <a href="/pages/webPrices.html">
+              <button
+              id="myBtn"
+                class="ml-28 mt-5 font-sans text-sm border-2 rounded-lg border-solid px-5 py-2 bg-blue text-white"
+              >
+                See Prices
+              </button>
+            </a>
+          </div>
+
+          <div class="mt-10">
+            <video
+              class="w-20 h-20 ml-32"
+              src="videos/target.mp4"
+              loop
+              autoplay
+            ></video>
+            <h1
+              class="text-center mt-5 text-md font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              ONLINE MARKETING
+            </h1>
+            <p class="text-sm font-normal w-72  text-center ml-5">
+              Marketing you services online will enable your customers and
+              potential customers to find your new website on search engines
+              such as Google. Internet marketing will drive more traffic to your
+              website, generating more possible leads.
+            </p>
+            <a href="/pages/seo.html">
+            <button
+              class="ml-28 mt-5 font-sans text-sm border-2 rounded-lg border-solid px-5 py-2 bg-blue text-white"
+            >
+              See Prices
+            </button>
+        </a>
+          </div>
+          <div class="mt-10">
+            <video
+              class="w-20 h-20 ml-32"
+              src="videos/user.mp4"
+              loop
+              autoplay
+            ></video>
+            <h1
+              class="text-center text-md mt-5 font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              SOCIAL MEDIA ADVERTISING
+            </h1>
+            <p class="text-sm font-normal w-72 text-center ml-5">
+              Social advertising can either refer to advertising about socially
+              relevant issues or leveraging social relationships and social
+              networks to promote a product/service and reach out to its target
+              audience.
+            </p>
+            <a href="/pages/social.html">
+            <button
+              class="ml-28 mt-5 font-sans text-sm border-2 rounded-lg border-solid px-5 py-2 bg-blue text-white"
+            >
+              See Prices
+            </button>
+        </a>
+          </div>
+          <div class="mt-10">
+            <video
+              class="w-20 h-20 ml-32"
+              src="videos/photo-camera.mp4"
+              loop
+              autoplay
+            ></video>
+            <h1
+              class="text-center text-md font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              PHOTOGRAPHY & VIDEOGRAPHY
+            </h1>
+            <p class="text-sm font-normal w-72 text-center ml-5">
+              SiteMedia comprises of a team of photographers and staff who are
+              passionate about photography. If you are looking for that perfect
+              wedding photographer in the Vaal Triangle (Vanderbijlpark,
+              Vereeniging, Meyerton, Sasolburg and Parys) who will capture every
+              moment of your special day, SiteMedia has just the photographer
+              for you!
+            </p>
+            <a href="/pages/photography.html">
+            <button
+              class="ml-28 mt-5 font-sans text-sm border-2 rounded-lg border-solid px-5 py-2 bg-blue text-white">
+              See Prices
+            </button>
+        </a>
+            
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- end -->
+
+          <div
+            class=" max-w-screen-xl mt-32 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900">
+            <div class="flex flex-col justify-between">
+              <div>
+                <h2 id="contact" class="text-4xl lg:text-5xl font-bold leading-tight">GET IN TOUCH WITH US</h2>
+                <p class="text-sm mt-5 font-bold">SEE HOW YOUR BUSINESS CAN BENEFIT WITH
+                    SITEWEB ON YOUR TEAM</p>
+                <div class="text-gray-700 mt-8">
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="">086 123 4444</p>
+                  
+                </div>
+                <div class="text-gray-700 mt-8">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p class="">info@siteweb.co.za</p>
+                  
+                </div>
+                <div class="text-gray-700 mt-8">
+                    <i class="fa-solid fa-building"></i>
+                  <p class=""> <span class="font-bold">Monday - Thursday: </span> 08:00 - 16:30</p>
+                  <p class=""><span class="font-bold">Friday:  </span>08:00 - 15:00</p>
+                  <p class=""><span class="font-bold">Saterdays, Sundays & Public Holidays:  </span>Closed</p>
+                </div>
+              </div>
+              <div class="mt-8 text-center">
+                  <title>contact us</title>
+                  <g opacity="0.1">
+                  
+              </div>
+            </div>
+            <div class="">
+              <div>
+                <span class="uppercase text-sm  font-bold">Full Name</span>
+                <input class="w-full bg-graylight text-black mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                  type="text" placeholder="">
+              </div>
+              <div class="mt-8">
+                <span class="uppercase text-sm  font-bold">Email</span>
+                <input class="w-full bg-graylight text-black mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                  type="text">
+              </div>
+              <div class="mt-8">
+                <span class="uppercase text-sm  font-bold">Message</span>
+                <textarea
+                  class="w-full h-32 bg-graylight text-black mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+              </div>
+              <div class="mt-8">
+                <button
+                  class="uppercase text-sm font-bold tracking-wide bg-blue text-white p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+                  Send Message
+                </button>
+              </div>
+              <div class="flex justify-around text-2xl mt-5">
+                <a href="https://plus.google.com/105397897384146951054/posts" class="" target="_blank">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                </a>
+                <a href="https://www.facebook.com/sitewebvaal" class="" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UC4CIMPSl4EFqZukl9dbQT4Q" class="" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://twitter.com/sitewebsa" class="" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="javascript/swiper.js"></script>
+    <script src="javascript/menu.js"></script>
+  </body>
+</html>
